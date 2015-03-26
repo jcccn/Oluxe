@@ -1,0 +1,86 @@
+PODS:
+  - Appirater (2.0.4)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - REFormattedNumberField (1.1.5)
+  - RESideMenu (4.0.7)
+  - RETableViewManager (1.5.14):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - ShareSDK/Copy (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/Core (2.10.7)
+  - ShareSDK/EverNote (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/Frequent (2.10.7):
+    - ShareSDK/Copy
+    - ShareSDK/Mail
+    - ShareSDK/QQConnect
+    - ShareSDK/QZone
+    - ShareSDK/SinaWeibo
+    - ShareSDK/UI/Flat
+    - ShareSDK/WeChat
+  - ShareSDK/Mail (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/Normal (2.10.7):
+    - ShareSDK/EverNote
+    - ShareSDK/Frequent
+    - ShareSDK/Pocket
+  - ShareSDK/Pocket (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/QQConnect (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/QZone (2.10.7):
+    - ShareSDK/QQConnect
+  - ShareSDK/SinaWeibo (2.10.7):
+    - ShareSDK/Core
+  - ShareSDK/UI/Flat (2.10.7)
+  - ShareSDK/WeChat (2.10.7):
+    - ShareSDK/Core
+  - TPKeyboardAvoiding (1.2.6)
+  - UMAnalytics (3.1.9)
+  - UMFeedback (2.1)
+
+DEPENDENCIES:
+  - Appirater
+  - BlocksKit
+  - Masonry
+  - MBProgressHUD
+  - RESideMenu
+  - RETableViewManager
+  - ShareSDK/Normal
+  - TPKeyboardAvoiding
+  - UMAnalytics
+  - UMFeedback
+
+SPEC CHECKSUMS:
+  Appirater: cbdb7f305562cfde585300bfff86da01ae559deb
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
+  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  REFormattedNumberField: 86318c549b60130a6d7a05abebb142f08f671319
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
+  RETableViewManager: 62cab967dd2d24545283cf4751e94c222268533a
+  REValidation: a0033a582415848854e875dfcbe69c107de19f81
+  ShareSDK: 15500c887bf602c522dd396e4e69f2c0bbba28b7
+  TPKeyboardAvoiding: 0797ad5f2366e2435e605202b01f3b7cff5d82cd
+  UMAnalytics: adfc8e3556403cb3470f275e4793c87dc3c53b6d
+  UMFeedback: 64911b9038ba07e5a004efc935d4893465c1af7f
+
+COCOAPODS: 0.36.0
