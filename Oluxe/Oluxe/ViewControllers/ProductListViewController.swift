@@ -1,18 +1,23 @@
 //
-//  FirstViewController.swift
+//  ProductListViewController.swift
 //  Oluxe
 //
 //  Created by Jiang Chuncheng on 3/26/15.
 //  Copyright (c) 2015 MorganStark. All rights reserved.
 //
 
+/**
+*  品牌和产品
+**/
+
 import UIKit
 
-class FirstViewController: UIViewController {
+class ProductListViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "精品汇"
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8203037D5A8600FAEC8A83D9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DE553B792F71CCA0EFC6A7 /* libPods.a */; };
+		909E37B31ACEE78E0079E03C /* UIImage+ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E37B11ACEE78E0079E03C /* UIImage+ViewUtils.swift */; };
+		909E37B41ACEE78E0079E03C /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E37B21ACEE78E0079E03C /* ViewUtils.swift */; };
+		909E37B61ACEE8E80079E03C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E37B51ACEE8E80079E03C /* BaseViewController.swift */; };
+		909E37C01ACEE9230079E03C /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 909E37B91ACEE9230079E03C /* about.html */; };
+		909E37C11ACEE9230079E03C /* btn_icon_navi_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909E37BB1ACEE9230079E03C /* btn_icon_navi_back@2x.png */; };
+		909E37C21ACEE9230079E03C /* btn_icon_navi_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909E37BC1ACEE9230079E03C /* btn_icon_navi_back@3x.png */; };
+		909E37C81ACEEABA0079E03C /* icon_oluxe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909E37C61ACEEABA0079E03C /* icon_oluxe@2x.png */; };
+		909E37C91ACEEABA0079E03C /* icon_oluxe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909E37C71ACEEABA0079E03C /* icon_oluxe@3x.png */; };
+		909E37CB1ACEEB260079E03C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E37CA1ACEEB260079E03C /* PlayViewController.swift */; };
+		909E37CD1ACEEB350079E03C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E37CC1ACEEB350079E03C /* MineViewController.swift */; };
 		90DD188F1AC422C20012E31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD188E1AC422C20012E31D /* AppDelegate.swift */; };
-		90DD18961AC422C20012E31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD18941AC422C20012E31D /* Main.storyboard */; };
 		90DD18981AC422C20012E31D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DD18971AC422C20012E31D /* Images.xcassets */; };
 		90DD189B1AC422C20012E31D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD18991AC422C20012E31D /* LaunchScreen.xib */; };
 		90DD18A71AC422C20012E31D /* OluxeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD18A61AC422C20012E31D /* OluxeTests.swift */; };
-		90DD18B41AC424140012E31D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD18B21AC424140012E31D /* FirstViewController.swift */; };
-		90DD18B51AC424140012E31D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD18B31AC424140012E31D /* SecondViewController.swift */; };
+		90DD18B41AC424140012E31D /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD18B21AC424140012E31D /* ArticleListViewController.swift */; };
+		90DD18B51AC424140012E31D /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD18B31AC424140012E31D /* ProductListViewController.swift */; };
 		90DD18B91AC424620012E31D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90DD18B71AC424620012E31D /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -29,18 +38,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		909E37B11ACEE78E0079E03C /* UIImage+ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ViewUtils.swift"; sourceTree = "<group>"; };
+		909E37B21ACEE78E0079E03C /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		909E37B51ACEE8E80079E03C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		909E37B91ACEE9230079E03C /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		909E37BB1ACEE9230079E03C /* btn_icon_navi_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_icon_navi_back@2x.png"; sourceTree = "<group>"; };
+		909E37BC1ACEE9230079E03C /* btn_icon_navi_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_icon_navi_back@3x.png"; sourceTree = "<group>"; };
+		909E37C61ACEEABA0079E03C /* icon_oluxe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_oluxe@2x.png"; sourceTree = "<group>"; };
+		909E37C71ACEEABA0079E03C /* icon_oluxe@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_oluxe@3x.png"; sourceTree = "<group>"; };
+		909E37CA1ACEEB260079E03C /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		909E37CC1ACEEB350079E03C /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		90DD18891AC422C20012E31D /* Oluxe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oluxe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD188D1AC422C20012E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90DD188E1AC422C20012E31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90DD18951AC422C20012E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90DD18971AC422C20012E31D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90DD189A1AC422C20012E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		90DD18A01AC422C20012E31D /* OluxeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OluxeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD18A51AC422C20012E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90DD18A61AC422C20012E31D /* OluxeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OluxeTests.swift; sourceTree = "<group>"; };
 		90DD18B01AC423F40012E31D /* Oluxe-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Oluxe-Bridging-Header.h"; sourceTree = "<group>"; };
-		90DD18B21AC424140012E31D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		90DD18B31AC424140012E31D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		90DD18B21AC424140012E31D /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		90DD18B31AC424140012E31D /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		90DD18B81AC424620012E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90DD18BA1AC4246B0012E31D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		95DE553B792F71CCA0EFC6A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +102,43 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		909E37B01ACEE78E0079E03C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				909E37B11ACEE78E0079E03C /* UIImage+ViewUtils.swift */,
+				909E37B21ACEE78E0079E03C /* ViewUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		909E37B71ACEE9230079E03C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				909E37B81ACEE9230079E03C /* Html */,
+				909E37BA1ACEE9230079E03C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		909E37B81ACEE9230079E03C /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				909E37B91ACEE9230079E03C /* about.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		909E37BA1ACEE9230079E03C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				909E37C61ACEEABA0079E03C /* icon_oluxe@2x.png */,
+				909E37C71ACEEABA0079E03C /* icon_oluxe@3x.png */,
+				909E37BB1ACEE9230079E03C /* btn_icon_navi_back@2x.png */,
+				909E37BC1ACEE9230079E03C /* btn_icon_navi_back@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		90DD18801AC422C10012E31D = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				90DD18B11AC423F40012E31D /* ViewControllers */,
+				909E37B01ACEE78E0079E03C /* Utilities */,
+				909E37B71ACEE9230079E03C /* Resources */,
 				90DD188E1AC422C20012E31D /* AppDelegate.swift */,
 				90DD18B01AC423F40012E31D /* Oluxe-Bridging-Header.h */,
-				90DD18941AC422C20012E31D /* Main.storyboard */,
 				90DD18971AC422C20012E31D /* Images.xcassets */,
 				90DD18991AC422C20012E31D /* LaunchScreen.xib */,
 				90DD188C1AC422C20012E31D /* Supporting Files */,
@@ -147,8 +203,11 @@
 		90DD18B11AC423F40012E31D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				90DD18B21AC424140012E31D /* FirstViewController.swift */,
-				90DD18B31AC424140012E31D /* SecondViewController.swift */,
+				909E37B51ACEE8E80079E03C /* BaseViewController.swift */,
+				90DD18B21AC424140012E31D /* ArticleListViewController.swift */,
+				90DD18B31AC424140012E31D /* ProductListViewController.swift */,
+				909E37CA1ACEEB260079E03C /* PlayViewController.swift */,
+				909E37CC1ACEEB350079E03C /* MineViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -238,10 +297,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DD18961AC422C20012E31D /* Main.storyboard in Resources */,
+				909E37C91ACEEABA0079E03C /* icon_oluxe@3x.png in Resources */,
+				909E37C21ACEE9230079E03C /* btn_icon_navi_back@3x.png in Resources */,
 				90DD18B91AC424620012E31D /* InfoPlist.strings in Resources */,
+				909E37C81ACEEABA0079E03C /* icon_oluxe@2x.png in Resources */,
 				90DD189B1AC422C20012E31D /* LaunchScreen.xib in Resources */,
+				909E37C01ACEE9230079E03C /* about.html in Resources */,
 				90DD18981AC422C20012E31D /* Images.xcassets in Resources */,
+				909E37C11ACEE9230079E03C /* btn_icon_navi_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +369,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DD188F1AC422C20012E31D /* AppDelegate.swift in Sources */,
-				90DD18B51AC424140012E31D /* SecondViewController.swift in Sources */,
-				90DD18B41AC424140012E31D /* FirstViewController.swift in Sources */,
+				909E37B41ACEE78E0079E03C /* ViewUtils.swift in Sources */,
+				90DD18B51AC424140012E31D /* ProductListViewController.swift in Sources */,
+				909E37CD1ACEEB350079E03C /* MineViewController.swift in Sources */,
+				909E37B31ACEE78E0079E03C /* UIImage+ViewUtils.swift in Sources */,
+				90DD18B41AC424140012E31D /* ArticleListViewController.swift in Sources */,
+				909E37CB1ACEEB260079E03C /* PlayViewController.swift in Sources */,
+				909E37B61ACEE8E80079E03C /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		90DD18941AC422C20012E31D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90DD18951AC422C20012E31D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90DD18991AC422C20012E31D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
